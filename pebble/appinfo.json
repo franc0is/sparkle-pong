@@ -5,13 +5,33 @@
   "companyName": "MakeAwesomeHappen",
   "versionCode": 1,
   "versionLabel": "1.0.0",
+  "capabilities": ["configurable"],
   "watchapp": {
     "watchface": false
   },
   "appKeys": {
-    "dummy": 0
+    "UP": 0,
+    "DOWN": 1,
+    "RESET": 2,
+    "SCORE": 3
   },
   "resources": {
-    "media": []
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_ARROW_UP",
+        "file": "images/up_arrow.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_RESET",
+        "file": "images/reset.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_ARROW_DOWN",
+        "file": "images/dn_arrow.png"
+      }
+    ]
   }
 }
